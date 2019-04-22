@@ -27,3 +27,5 @@ Sigue los requerimientos e instrucciones para completar la tarea asignada.
 
 ## Extra Points
 * Aplica un basic styling al formulario para mejorar como se ve.
+* En la pagina de success imprime los datos enviados dentro
+la lista.
