@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Welcome to ZeroFOX</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+  <h1>Welcome to ZeroFOX</h1>
+  <h3>Complete your profile</h3>
+  <form method="GET" onsubmit="handleSubmit(event);">
+    <div class="form-control">
+      <label>Email</label>
+      <input id="email" type="email" name="email" />
+    </div>
+
+    <div class="form-control">
+      <label for="password">Password</label>
+      <input id="password" type="text" name="password" />
+    </div>
+
+    <div class="form-control">
+      <label for="confirm-password">Confirm Password</label>
+      <input id="confirm-password" type="text" name="confirm-password" />
+    </div>
+
+    <div class="form-control">
+      <div for="gender">Gender</div >
+      <select id="gender">
+        <option>Select an option...</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+
+    <div class="form-control">
+      <label for="city">City</label>
+      <select id="city">
+        <option>Select an option...</option>
+      </select>
+    </div>
+
+    <input type="submit" value="Confirm" />
+  </form>
+</body>
+
+<script>
+  var cities = [
+    'Antofagasta',
+    'Coquimbo',
+    'Santiago',
+    'Valparaiso',
+    'Rancagua',
+    'Osorno',
+    'Rancagua',
+    'Santiago'
+  ];
+
+  function initForm() {
+    console.log(cities);
+  }
+  initForm();
+
+  function handleSubmit(evt) {
+    // evt.preventDefault();
+  }
+</script>
+
+</html>
