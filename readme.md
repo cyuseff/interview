@@ -1,9 +1,9 @@
 # Scenario
 
 Estamos trabajando en el flujo de creación de usuarios y el
-desarrollador encargado está de vacaciones!
+desarrollador encargado está de vacaciones.
 
-Esta es un pasó critico de nuestra plataformas y lo necesitamos ASAP!!!
+Este es un pasó critico de nuestra plataformas y lo necesitamos ASAP!!!
 
 Sigue los requerimientos e instrucciones para completar la tarea asignada.
 
