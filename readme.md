@@ -8,24 +8,31 @@ ahora ASAP!!!
 
 Sigue los requerimientos e instrucciones para completar la tarea asignada.
 
-# Requirements
-## Profile Form
-1. Valida que el formulario esteé enviando los siguientes datos:
+#h1 Requirements
+#h3 Profile Form
+1. Valida que el formulario envíe los siguientes datos:
   * Email
   * Password
   * Gender
-  * City
+  * City (ver extra points)
   * Un hidden field con el nombre 'referal' y el valor de 'profile_page'
-2. Asegurate que todos los field tengan un label y sigan la misma esrtuctura.
+2. Asegurate que todos los field tengan un label y sigan la misma estructura.
 3. Todos los fields son requeridos
-4. Valida que los fields de passwords sean identicos antes de enviar el formulario.
+4. Valida que los fields de passwords sean identicos antes de enviar el formulario. Puedes usar el método `handleSubmit` para esto.
+5. Envía el formulario a success.html usando el método GET.
 
-5. Rellena el campo de ciudades
-  * Usa la función `initForm` para crear las opciones de ciudades.
-  * `cities` simula una respuesta de un API, limpia los resultados antes de crear las opciones.
-6. Postea el formulario a success.html usando el método GET
+#h3 Basic Styling
+Necesitamos que ese formulario se vea bien!
+Trata de que el formulario se vea lo más parecido al diseño que nos enviaron.
+
+![Profile Form](form.png)
+
+1. Inserta el logo de ZeroFOX en el header
+2. El color de fondo del formulario debe ser `#041e42`
+2. El color del botton `Submit` debe ser `#a51e23`
+
 
 ## Extra Points
-* Aplica un basic styling al formulario para mejorar como se ve.
-* En la pagina de success imprime los datos enviados dentro
-la lista.
+1. Rellena el campo de ciudades
+  * Usa la función `initForm` para crear las opciones de ciudades.
+  * `cities` simula una respuesta de un API, limpia los resultados antes de crear las opciones.
