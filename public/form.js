@@ -1,8 +1,3 @@
-function handleSubmit(evt) {
-  // check that password and confirm-password are equal before send
-  // evt.preventDefault();
-}
-
 var cities = [
   'Antofagasta',
   'Coquimbo',
@@ -18,3 +13,8 @@ function initForm() {
   console.log(cities);
 }
 initForm();
+
+function handleSubmit(evt) {
+  // check that password and confirm-password are equal before send
+  // evt.preventDefault();
+}
