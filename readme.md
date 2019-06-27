@@ -8,8 +8,8 @@ ahora ASAP!!!
 
 Sigue los requerimientos e instrucciones para completar la tarea asignada.
 
-#h1 Requirements
-#h3 Profile Form
+## Requirements
+### Profile Form
 1. Valida que el formulario envíe los siguientes datos:
   * Email
   * Password
@@ -21,7 +21,7 @@ Sigue los requerimientos e instrucciones para completar la tarea asignada.
 4. Valida que los fields de passwords sean identicos antes de enviar el formulario. Puedes usar el método `handleSubmit` para esto.
 5. Envía el formulario a success.html usando el método GET.
 
-#h3 Basic Styling
+### Basic Styling
 Necesitamos que ese formulario se vea bien!
 Trata de que el formulario se vea lo más parecido al diseño que nos enviaron.
 
@@ -30,7 +30,6 @@ Trata de que el formulario se vea lo más parecido al diseño que nos enviaron.
 1. Inserta el logo de ZeroFOX en el header
 2. El color de fondo del formulario debe ser `#041e42`
 2. El color del botton `Submit` debe ser `#a51e23`
-
 
 ## Extra Points
 1. Rellena el campo de ciudades
