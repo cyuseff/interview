@@ -33,4 +33,5 @@ Trata   vea lo más parecido al diseño que nos enviaron.
 1. Rellena el campo de ciudades
   * Usa la función `initForm` para crear las opciones de ciudades.
   * `cities` simula una respuesta de un API, limpia los resultados antes de crear las opciones.
+  * Ordena las ciudades alfabeticamente.
 2. Valida que los fields de passwords sean identicos antes de enviar el formulario. Puedes usar el método `handleSubmit` para esto.
