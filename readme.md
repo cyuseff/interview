@@ -21,7 +21,7 @@ Sigue los requerimientos e instrucciones para completar la tarea asignada.
 
 ### Basic Styling
 Necesitamos que ese formulario se vea bien!
-Trata   vea lo más parecido al diseño que nos enviaron.
+Trata vea lo más parecido al diseño que nos enviaron.
 
 ![Profile Form](form.png)
 

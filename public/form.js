@@ -6,7 +6,7 @@ var cities = [
   'Rancagua',
   'Osorno',
   'Rancagua',
-  'Santiago'
+  'santiago'
 ];
 
 function initForm() {
